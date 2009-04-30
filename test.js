@@ -9,7 +9,9 @@ var x = {
   test1: 5
 };
 
-var x = {
-  test1: 5,
-  test2: 6
-};
+x.test();
+var y = x.test1;
+if y == 6
+print("i have a clue");
+else
+print("no clue what so ever")

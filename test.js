@@ -11,7 +11,7 @@ var x = {
 
 x.test();
 var y = x.test1;
-if y == 6
+if (y == 6)
 print("i have a clue");
 else
 print("no clue what so ever")

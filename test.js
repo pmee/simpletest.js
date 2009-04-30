@@ -12,6 +12,9 @@ var x = {
 x.test();
 var y = x.test1;
 if (y == 6)
-print("i have a clue");
+{
+	print("i have a clue");
+	print(y)
+}
 else
 print("no clue what so ever")
